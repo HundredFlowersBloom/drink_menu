@@ -1,7 +1,55 @@
-* {
-    line-height: 1.5;
+*{
+    line-height: 1.0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 108, 191);
+}
+
+.menu-card {
+    width: 900px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(221, 255, 255);
+    border: 2px solid rgb(70, 11, 14);
+    margin: 10px auto;
+}
+h1 {
+    color: darkred;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2, h3{
+    text-transform: uppercase;
+}
+
+h3, p, li {
+    line-height: 0.7;
+}
+
+img {
+    width: 450px;
+    display:block;
+    margin: 0 auto;
+}
+
+.ingredients {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    line-height: 4.7;
+}
+
+.description{
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+.cocktails, .highballs{
+    text-align: center;
+    display:inline-block;
+    vertical-align: top;
+    justify-content: left;
 }
